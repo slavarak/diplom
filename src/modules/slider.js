@@ -35,6 +35,7 @@ const slider = () => {
         if (window.innerWidth >= 576) {
             if (e.target.closest('.benefits__arrow--right')) {
                 benefitItems.forEach(benefitItem => {
+                    
                     if (benefitItem.classList.contains('not-active')) {
                         benefitItem.classList.remove('not-active')
                     } else {
@@ -45,6 +46,7 @@ const slider = () => {
             if (e.target.closest('.benefits__arrow--left')) {
                 benefitItems.forEach(benefitItem => {
                     if (benefitItem.classList.contains('not-active')) {
+                        
                         benefitItem.classList.remove('not-active')
                     } else {
                         benefitItem.classList.add('not-active')

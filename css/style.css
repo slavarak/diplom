@@ -227,6 +227,11 @@ input.error {
 .navbar-order {
   float: right;
 }
+
+.not-active {
+  display: none;
+}
+
 #navigation-fixed .navbar-brand {
   padding: 0;
   margin: 0px 60px 0px 0px;
