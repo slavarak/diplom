@@ -27,7 +27,7 @@ const calculator = () => {
         reuslts.value = reusltsValue
     }
     if (calc == null) {
-        console.log('Калькулятор на странице не найден');
+        return
     } else {
     calc.addEventListener('input', (e) => {
         if (e.target === balcony || e.target === squaremeter || 
